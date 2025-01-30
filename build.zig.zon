@@ -24,12 +24,12 @@
     // internet connectivity.
     .dependencies = .{
         .box2d = .{
-            .url = "https://github.com/ndbn/box2d/archive/refs/heads/add-zig-build-system.zip",
-            .hash = "1220c0339df72695becd6a256e50add11a55d9b0c2602188b4a612a841e24d847162",
+            .url = "https://github.com/ndbn/box2d/archive/refs/heads/main.zip",
+            .hash = "1220e8fe6aee6b0854797f77b214d9f762ca0e9e3d6413fe5d6ffff2e09045a54220",
         },
         .raylib = .{
             .url = "https://github.com/raysan5/raylib/archive/refs/heads/master.zip",
-            .hash = "12200047ff1ab70b4beb6c35c25ccc5d0a93cf98a9f5f5b5316f5842ca11a75e458e",
+            .hash = "12208d70362a450a22ee21118abe339c063c7ac921bc6e1296ccb495385ea05f25e4",
         },
     },
     .paths = .{

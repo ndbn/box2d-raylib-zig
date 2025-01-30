@@ -25,6 +25,7 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
         // Raylib options
         .rmodels = false,
+        .linux_display_backend = .X11,
     });
     const raylibLibrary = raylibDependency.artifact("raylib");
     raylibLibrary.addIncludePath(raylibLibrary.getEmittedIncludeTree());
